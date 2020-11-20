@@ -17,6 +17,9 @@ ro.charger.enable_suspend=true
 persist.lcd.cabc_mode=1
 persist.lcd.hbm_mode=0
 
+# Display (cutout)
+ro.support_hide_display_cutout=true
+
 # WFD
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0

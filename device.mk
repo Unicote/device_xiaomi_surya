@@ -235,6 +235,9 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_PACKAGES += \
     fastbootd
 
+# VNDK
+$(foreach target, $(shell cat $(LOCAL_PATH)/vndk.txt), $(eval PRODUCT_PACKAGES += $(target).vendor))
+
 # WiFi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/hostapd.accept:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.accept \

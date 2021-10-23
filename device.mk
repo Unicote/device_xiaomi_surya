@@ -169,6 +169,7 @@ PRODUCT_PACKAGES += \
     PixelSuryaSettings \
     KarnaFrameworks \
     NoCutoutOverlay \
+    AvoidAppsInCutoutOverlay \
     NotchBarKiller \
     SuryaFrameworks \
     SuryaSystemUI

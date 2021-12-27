@@ -164,8 +164,8 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    WaveSuryaFrameworks \
-    WaveSuryaSettings \
+    PixelSuryaFrameworks \
+    PixelSuryaSettings \
     KarnaFrameworks \
     NoCutoutOverlay \
     NotchBarKiller \
